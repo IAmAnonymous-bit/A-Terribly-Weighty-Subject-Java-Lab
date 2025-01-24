@@ -31,7 +31,7 @@ public class TestConverter {
 
   @Test
   public void test16OuncesToPounds() {
-    assertEquals("1.0000 lb", converter.toPounds(16));
+    assertEquals("1.0000 lbs", converter.toPounds(16));
   }
 
   @Test
@@ -61,12 +61,12 @@ public class TestConverter {
 
   @Test
   public void test16OuncesToPoundsAndOunces() {
-    assertEquals("1 lb 0 oz", converter.toPoundsAndOunces(16));
+    assertEquals("1 lbs 0 oz", converter.toPoundsAndOunces(16));
   }
 
   @Test
   public void test24OuncesToPoundsAndOunces() {
-    assertEquals("1 lb 8 oz", converter.toPoundsAndOunces(24));
+    assertEquals("1 lbs 8 oz", converter.toPoundsAndOunces(24));
   }
 
   @Test
