@@ -29,6 +29,8 @@ public class App {
         
       }
 
+      in.close();
+
       System.out.println();
       
     }
