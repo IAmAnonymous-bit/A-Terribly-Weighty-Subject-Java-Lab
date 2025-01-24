@@ -14,8 +14,8 @@ public class App {
 
     while (isValid == false)
     {
-      System.out.println("Please Insert Oz:");
       Scanner in = new Scanner(System.in);
+      System.out.println("Please Insert Oz:");
       if(in.hasNextInt())
       {
         ounces = in.nextInt();
